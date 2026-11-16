@@ -8,7 +8,7 @@
 
 ```powershell
 uv run playwright install chromium
-uv run js-seo-audit https://theonlinemetronome.com/ --output audit.json
+uv run js-seo-audit https://your_site.com/ --output audit.json
 ```
 
 Для кількох сайтів створи `urls.txt` у UTF-8 поруч із `pyproject.toml`. Додай по одній адресі на рядок. Домен без схеми відкривається через HTTPS. Для оцінки сайту додай головну й кілька URL різних шаблонів.
