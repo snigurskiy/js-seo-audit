@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "js-seo-audit"
+version = "0.3.0"
+description = "Compare server HTML and JavaScript-rendered content for SEO audits"
+requires-python = ">=3.10"
+dependencies = ["lxml>=5", "playwright>=1.49", "XlsxWriter>=3.2"]
+
+[project.scripts]
+js-seo-audit = "js_seo_audit.cli:main"

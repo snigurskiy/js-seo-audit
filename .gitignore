@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+urls.txt
+audit*.json
+audit*.xlsx
+invisible-domains.txt
+*.checkpoint.sqlite3*
+.*.checkpoint.lock
+.invisible-domains.lock
